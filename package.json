@@ -1,0 +1,48 @@
+{
+  "name": "paperclip-plugin-avp",
+  "version": "1.0.0",
+  "description": "Trust and reputation layer for Paperclip agents via Agent Veil Protocol",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@paperclipai/plugin-sdk": "*",
+    "@paperclipai/shared": "*"
+  },
+  "devDependencies": {
+    "@paperclipai/plugin-sdk": "^2026.318.0",
+    "@paperclipai/shared": "^2026.318.0",
+    "typescript": "^5.7.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "paperclipPlugin": {
+    "manifest": "./dist/manifest.js",
+    "worker": "./dist/worker.js"
+  },
+  "keywords": [
+    "paperclip",
+    "plugin",
+    "avp",
+    "trust",
+    "reputation",
+    "agent",
+    "identity",
+    "did",
+    "eigentrust",
+    "attestation"
+  ],
+  "author": "AgentVeil Protocol",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creatorrmode-lead/paperclip-plugin-avp"
+  },
+  "homepage": "https://agentveil.dev"
+}
