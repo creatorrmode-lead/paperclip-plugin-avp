@@ -44,7 +44,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/creatorrmode-lead/paperclip-plugin-avp"
+    "url": "https://github.com/agentveil-protocol/paperclip-plugin-avp"
   },
   "homepage": "https://agentveil.dev"
 }
